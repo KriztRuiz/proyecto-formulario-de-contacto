@@ -1,0 +1,27 @@
+/* media-queries.css */
+
+/* Estilos para dispositivos con una anchura máxima de 768px */
+@media screen and (max-width: 768px) {
+    /* Agrega tus estilos específicos para dispositivos móviles aquí */
+    body {
+        font-size: 14px;
+    }
+}
+
+/* Estilos para dispositivos con una anchura mínima de 768px y una anchura máxima de 1024px */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    /* Agrega tus estilos específicos para tabletas aquí */
+    body {
+        font-size: 16px;
+    }
+}
+
+/* Estilos para dispositivos con una anchura mínima de 1025px */
+@media screen and (min-width: 1025px) {
+    /* Agrega tus estilos específicos para pantallas grandes aquí */
+    body {
+        font-size: 18px;
+    }
+}
+
+/* Otros media queries y estilos específicos según sea necesario */

@@ -1,0 +1,77 @@
+/* utilities.css */
+
+/* Clases de utilidad */
+
+/* Centrar contenido horizontalmente */
+.text-center {
+    text-align: center;
+}
+
+/* Centrar contenido verticalmente */
+.vertical-center {
+    display: flex;
+    align-items: center;
+}
+
+/* Ocultar elemento */
+.hide {
+    display: none !important;
+}
+
+/* Mostrar elemento */
+.show {
+    display: block !important;
+}
+
+/* Flotar a la izquierda */
+.float-left {
+    float: left;
+}
+
+/* Flotar a la derecha */
+.float-right {
+    float: right;
+}
+
+/* Limpiar flotantes */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Espaciado */
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.ml-10 {
+    margin-left: 10px;
+}
+
+.mr-10 {
+    margin-right: 10px;
+}
+
+/* Padding */
+.pt-10 {
+    padding-top: 10px;
+}
+
+.pb-10 {
+    padding-bottom: 10px;
+}
+
+.pl-10 {
+    padding-left: 10px;
+}
+
+.pr-10 {
+    padding-right: 10px;
+}
+
+/* Otros utilidades según sea necesario */

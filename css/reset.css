@@ -1,0 +1,39 @@
+/* reset.css */
+
+/* Reset de márgenes y rellenos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Reset de estilos de tipografía */
+body, h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-weight: normal;
+    font-family: inherit;
+}
+
+/* Reset de listas */
+ul, ol {
+    list-style: none;
+}
+
+/* Reset de enlaces */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Reset de elementos de formulario */
+button, input, select, textarea {
+    margin: 0;
+    padding: 0;
+    font-size: inherit;
+    font-family: inherit;
+    vertical-align: middle;
+}
+
+/* Otros estilos que desees restablecer */
